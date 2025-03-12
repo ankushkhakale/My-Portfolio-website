@@ -1,0 +1,609 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ankush Khakale | Front-End Developer</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="skills-charts.css">
+  <!-- Font Awesome for icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- Header -->
+  <header class="header" id="header">
+    <div class="container">
+      <div class="logo">
+        <a href="#home"><span>AK </span>Portfolio</a>
+      </div>
+      <nav class="nav-menu">
+        <ul class="nav-list">
+          <li><a href="#home" class="nav-link active">Home</a></li>
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#resume" class="nav-link">Resume</a></li>
+          <li><a href="#projects" class="nav-link">Projects</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="header-buttons">
+        <button class="theme-toggle" id="theme-toggle" aria-label="Toggle dark mode">
+          <i class="fas fa-moon"></i>
+        </button>
+        <div class="mobile-menu-btn" id="mobile-menu-btn">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Menu -->
+  <div class="mobile-menu" id="mobile-menu">
+    <ul class="mobile-nav-list">
+      <li><a href="#home" class="mobile-nav-link">Home</a></li>
+      <li><a href="#about" class="mobile-nav-link">About</a></li>
+      <li><a href="#resume" class="mobile-nav-link">Resume</a></li>
+      <li><a href="#projects" class="mobile-nav-link">Projects</a></li>
+      <li><a href="#contact" class="mobile-nav-link">Contact</a></li>
+    </ul>
+  </div>
+  
+  <!-- Main Content -->
+  <main>
+    <!-- Hero Section -->
+    <section id="home" class="hero-section">
+      <div class="container">
+        <div class="hero-content">
+          <!-- Developer Photo -->
+          <div class="developer-photo-container">
+            <div class="developer-photo">
+              <img src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/ankush%20iit%20bombay.jpg-mv0iyCmxDIkrOv4P90o8XCfOEAwCVD.jpeg" alt="Ankush Khakale - Front-End Developer">
+            </div>
+          </div>
+          <h1 class="hero-title">Hi, I'm <span>Ankush Khakale</span></h1>
+          <h2 class="hero-subtitle">Front-End Developer & UI/UX Enthusiast</h2>
+          <p class="hero-description">
+            I create beautiful, responsive websites with modern web technologies
+            that help businesses achieve their goals. Let's build something great together!
+          </p>
+          <div class="hero-buttons">
+            <a href="#projects" class="btn btn-primary">View My Work</a>
+            <a href="#contact" class="btn btn-secondary">Contact Me</a>
+          </div>
+        </div>
+        <div class="scroll-down">
+          <a href="#about" aria-label="Scroll to About section">
+            <i class="fas fa-chevron-down"></i>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about-section section">
+      <div class="container">
+        <div class="section-title">
+          <h2>About Me</h2>
+          <p>I'm a dedicated Computer Engineering student with a passion for coding, problem-solving, and technology. Currently building a strong foundation in programming, circuits, and digital systems to create innovative solutions.</p>
+        </div>
+        <div class="about-content">
+          <div class="about-text">
+            <h3>My Journey</h3>
+            <p>
+              I started my journey as a Computer Engineering student with a passion for technology and problem-solving. Since then, I've been exploring programming, digital systems, and circuit design to build a strong technical foundation. I love tackling challenges, learning new concepts, and applying my skills to real-world projects.
+            </p>
+            <p>
+              When I'm not coding, you can find me exploring new technologies, contributing
+              to open-source projects, or enjoying outdoor activities.
+            </p>
+            <a href="#" class="btn btn-primary btn-download">Download Resume</a>
+          </div>
+          <div class="skills-container">
+            <h3>My Skills</h3>
+            
+            <div class="skills-tabs">
+              <button class="tab-btn active" data-tab="frontend">Front-End</button>
+              <button class="tab-btn" data-tab="frameworks">Frameworks & Libraries</button>
+              <button class="tab-btn" data-tab="other">Other Skills</button>
+            </div>
+            
+            <div class="skills-chart-container">
+              <!-- Frontend Skills -->
+              <div class="skill-chart-content" id="frontend-content">
+                <h4>Front-End Development</h4>
+                <div class="skill-visualization">
+                  <!-- Modern Bar Chart -->
+                  <div class="skill-bars-modern">
+                    <div class="bar-chart-container">
+                      <div class="modern-bar-container">
+                        <div class="modern-bar-label">HTML5</div>
+                        <div class="modern-bar-wrapper">
+                          <div class="modern-bar" data-value="95" style="background-color: #E44D26;"></div>
+                        </div>
+                        <div class="modern-bar-value">95%</div>
+                      </div>
+                      <div class="modern-bar-container">
+                        <div class="modern-bar-label">CSS3</div>
+                        <div class="modern-bar-wrapper">
+                          <div class="modern-bar" data-value="90" style="background-color: #264DE4;"></div>
+                        </div>
+                        <div class="modern-bar-value">90%</div>
+                      </div>
+                      <div class="modern-bar-container">
+                        <div class="modern-bar-label">JavaScript</div>
+                        <div class="modern-bar-wrapper">
+                          <div class="modern-bar" data-value="85" style="background-color: #F7DF1E;"></div>
+                        </div>
+                        <div class="modern-bar-value">85%</div>
+                      </div>
+                    </div>
+                  </div>
+                  
+                  <!-- Circle Charts -->
+                  <div class="skill-circles">
+                    <div class="skill-circle" data-skill="HTML5" data-value="95" data-color="#E44D26">
+                      <svg width="120" height="120" viewBox="0 0 120 120">
+                        <circle cx="60" cy="60" r="54" fill="none" stroke="var(--border-color)" stroke-width="12" />
+                        <circle class="skill-circle-progress" cx="60" cy="60" r="54" fill="none" stroke="#E44D26" stroke-width="12" stroke-dasharray="0 339.12" stroke-dashoffset="84.78" />
+                        <text x="60" y="60" dominant-baseline="middle" text-anchor="middle" font-size="18" font-weight="bold">95%</text>
+                      </svg>
+                      <p class="skill-name">HTML5</p>
+                    </div>
+                    <div class="skill-circle" data-skill="CSS3" data-value="90" data-color="#264DE4">
+                      <svg width="120" height="120" viewBox="0 0 120 120">
+                        <circle cx="60" cy="60" r="54" fill="none" stroke="var(--border-color)" stroke-width="12" />
+                        <circle class="skill-circle-progress" cx="60" cy="60" r="54" fill="none" stroke="#264DE4" stroke-width="12" stroke-dasharray="0 339.12" stroke-dashoffset="84.78" />
+                        <text x="60" y="60" dominant-baseline="middle" text-anchor="middle" font-size="18" font-weight="bold">90%</text>
+                      </svg>
+                      <p class="skill-name">CSS3</p>
+                    </div>
+                    <div class="skill-circle" data-skill="JavaScript" data-value="85" data-color="#F7DF1E">
+                      <svg width="120" height="120" viewBox="0 0 120 120">
+                        <circle cx="60" cy="60" r="54" fill="none" stroke="var(--border-color)" stroke-width="12" />
+                        <circle class="skill-circle-progress" cx="60" cy="60" r="54" fill="none" stroke="#F7DF1E" stroke-width="12" stroke-dasharray="0 339.12" stroke-dashoffset="84.78" />
+                        <text x="60" y="60" dominant-baseline="middle" text-anchor="middle" font-size="18" font-weight="bold">85%</text>
+                      </svg>
+                      <p class="skill-name">JavaScript</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              
+              <!-- Frameworks Skills -->
+              <div class="skill-chart-content" id="frameworks-content" style="display: none;">
+                <h4>Frameworks & Libraries</h4>
+                <div class="skill-visualization">
+                  <!-- Modern Bar Chart -->
+                  <div class="skill-bars-modern">
+                    <div class="bar-chart-container">
+                      <div class="modern-bar-container">
+                        <div class="modern-bar-label">React</div>
+                        <div class="modern-bar-wrapper">
+                          <div class="modern-bar" data-value="80" style="background-color: #61DAFB;"></div>
+                        </div>
+                        <div class="modern-bar-value">80%</div>
+                      </div>
+                      <div class="modern-bar-container">
+                        <div class="modern-bar-label">jQuery</div>
+                        <div class="modern-bar-wrapper">
+                          <div class="modern-bar" data-value="75" style="background-color: #0769AD;"></div>
+                        </div>
+                        <div class="modern-bar-value">75%</div>
+                      </div>
+                      <div class="modern-bar-container">
+                        <div class="modern-bar-label">Bootstrap</div>
+                        <div class="modern-bar-wrapper">
+                          <div class="modern-bar" data-value="85" style="background-color: #7952B3;"></div>
+                        </div>
+                        <div class="modern-bar-value">85%</div>
+                      </div>
+                    </div>
+                  </div>
+                  
+                  <!-- Circle Charts -->
+                  <div class="skill-circles">
+                    <div class="skill-circle" data-skill="React" data-value="80" data-color="#61DAFB">
+                      <svg width="120" height="120" viewBox="0 0 120 120">
+                        <circle cx="60" cy="60" r="54" fill="none" stroke="var(--border-color)" stroke-width="12" />
+                        <circle class="skill-circle-progress" cx="60" cy="60" r="54" fill="none" stroke="#61DAFB" stroke-width="12" stroke-dasharray="0 339.12" stroke-dashoffset="84.78" />
+                        <text x="60" y="60" dominant-baseline="middle" text-anchor="middle" font-size="18" font-weight="bold">80%</text>
+                      </svg>
+                      <p class="skill-name">React</p>
+                    </div>
+                    <div class="skill-circle" data-skill="jQuery" data-value="75" data-color="#0769AD">
+                      <svg width="120" height="120" viewBox="0 0 120 120">
+                        <circle cx="60" cy="60" r="54" fill="none" stroke="var(--border-color)" stroke-width="12" />
+                        <circle class="skill-circle-progress" cx="60" cy="60" r="54" fill="none" stroke="#0769AD" stroke-width="12" stroke-dasharray="0 339.12" stroke-dashoffset="84.78" />
+                        <text x="60" y="60" dominant-baseline="middle" text-anchor="middle" font-size="18" font-weight="bold">75%</text>
+                      </svg>
+                      <p class="skill-name">jQuery</p>
+                    </div>
+                    <div class="skill-circle" data-skill="Bootstrap" data-value="85" data-color="#7952B3">
+                      <svg width="120" height="120" viewBox="0 0 120 120">
+                        <circle cx="60" cy="60" r="54" fill="none" stroke="var(--border-color)" stroke-width="12" />
+                        <circle class="skill-circle-progress" cx="60" cy="60" r="54" fill="none" stroke="#7952B3" stroke-width="12" stroke-dasharray="0 339.12" stroke-dashoffset="84.78" />
+                        <text x="60" y="60" dominant-baseline="middle" text-anchor="middle" font-size="18" font-weight="bold">85%</text>
+                      </svg>
+                      <p class="skill-name">Bootstrap</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              
+              <!-- Other Skills -->
+              <div class="skill-chart-content" id="other-content" style="display: none;">
+                <h4>Other Technical Skills</h4>
+                <div class="skill-visualization">
+                  <!-- Modern Bar Chart -->
+                  <div class="skill-bars-modern">
+                    <div class="bar-chart-container">
+                      <div class="modern-bar-container">
+                        <div class="modern-bar-label">Git</div>
+                        <div class="modern-bar-wrapper">
+                          <div class="modern-bar" data-value="70" style="background-color: #F05032;"></div>
+                        </div>
+                        <div class="modern-bar-value">70%</div>
+                      </div>
+                      <div class="modern-bar-container">
+                        <div class="modern-bar-label">Figma</div>
+                        <div class="modern-bar-wrapper">
+                          <div class="modern-bar" data-value="65" style="background-color: #F24E1E;"></div>
+                        </div>
+                        <div class="modern-bar-value">65%</div>
+                      </div>
+                      <div class="modern-bar-container">
+                        <div class="modern-bar-label">Responsive Design</div>
+                        <div class="modern-bar-wrapper">
+                          <div class="modern-bar" data-value="90" style="background-color: #38B2AC;"></div>
+                        </div>
+                        <div class="modern-bar-value">90%</div>
+                      </div>
+                    </div>
+                  </div>
+                  
+                  <!-- Circle Charts -->
+                  <div class="skill-circles">
+                    <div class="skill-circle" data-skill="Git" data-value="70" data-color="#F05032">
+                      <svg width="120" height="120" viewBox="0 0 120 120">
+                        <circle cx="60" cy="60" r="54" fill="none" stroke="var(--border-color)" stroke-width="12" />
+                        <circle class="skill-circle-progress" cx="60" cy="60" r="54" fill="none" stroke="#F05032" stroke-width="12" stroke-dasharray="0 339.12" stroke-dashoffset="84.78" />
+                        <text x="60" y="60" dominant-baseline="middle" text-anchor="middle" font-size="18" font-weight="bold">70%</text>
+                      </svg>
+                      <p class="skill-name">Git</p>
+                    </div>
+                    <div class="skill-circle" data-skill="Figma" data-value="65" data-color="#F24E1E">
+                      <svg width="120" height="120" viewBox="0 0 120 120">
+                        <circle cx="60" cy="60" r="54" fill="none" stroke="var(--border-color)" stroke-width="12" />
+                        <circle class="skill-circle-progress" cx="60" cy="60" r="54" fill="none" stroke="#F24E1E" stroke-width="12" stroke-dasharray="0 339.12" stroke-dashoffset="84.78" />
+                        <text x="60" y="60" dominant-baseline="middle" text-anchor="middle" font-size="18" font-weight="bold">65%</text>
+                      </svg>
+                      <p class="skill-name">Figma</p>
+                    </div>
+                    <div class="skill-circle" data-skill="Responsive Design" data-value="90" data-color="#38B2AC">
+                      <svg width="120" height="120" viewBox="0 0 120 120">
+                        <circle cx="60" cy="60" r="54" fill="none" stroke="var(--border-color)" stroke-width="12" />
+                        <circle class="skill-circle-progress" cx="60" cy="60" r="54" fill="none" stroke="#38B2AC" stroke-width="12" stroke-dasharray="0 339.12" stroke-dashoffset="84.78" />
+                        <text x="60" y="60" dominant-baseline="middle" text-anchor="middle" font-size="18" font-weight="bold">90%</text>
+                      </svg>
+                      <p class="skill-name">Responsive Design</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Resume Section with Flowcharts -->
+    <section id="resume" class="resume-section section">
+      <div class="container">
+        <div class="section-title">
+          <h2>My Resume</h2>
+          <p>My academic background and professional experience</p>
+        </div>
+        
+        <div class="resume-content">
+          <!-- Academic Timeline -->
+          <div class="timeline-container">
+            <h3 class="timeline-title">
+              <i class="fas fa-graduation-cap"></i> Academic Background
+            </h3>
+            <div class="timeline">
+              <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-date">2012 - 2022</div>
+                <div class="timeline-content">
+                  <h4>Primary and Secondary Education</h4>
+                  <p>Bhonsala Military School, Nashik.</p>
+                  <p>Graduated with honors. Focused on personality development and academics.</p>
+                </div>
+              </div>
+              <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-date">2022 - 2024</div>
+                <div class="timeline-content">
+                  <h4>HSC Boards</h4>
+                  <p>KTHM College of Nashik</p>
+                  <p>Passed with first class and learned extra curricular skills in Adobe Photoshop & Premiere Pro, Lightroom, After Effects. Started to learn Networking.</p>
+                </div>
+              </div>
+              <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-date">2021</div>
+                <div class="timeline-content">
+                  <h4>BTech Computer Engineering</h4>
+                  <p>Matoshri College of Engineering</p>
+                  <p>I began my journey in Computer Engineering with a passion for technology and problem-solving. Since then, I've been exploring programming, digital systems, and circuit design to build innovative solutions.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Work Experience Timeline -->
+          <div class="timeline-container">
+            <h3 class="timeline-title">
+              <i class="fas fa-briefcase"></i> Work Experience
+            </h3>
+            <div class="timeline">
+              <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-date">2018 - 2020</div>
+                <div class="timeline-content">
+                  <h4>Computer hardware Installation</h4>
+                  <p>RK sales and services.</p>
+                  <p>I've gained hands-on experience in hardware installation, troubleshooting, and system integration. The role has strengthened my technical skills, problem-solving abilities, and teamwork. It's been a great journey of learning and growth in the field.</p>
+                </div>
+              </div>
+              <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-date">2020 - 2022</div>
+                <div class="timeline-content">
+                  <h4>Video Editor & Photographer</h4>
+                  <p>Free Lancer</p>
+                  <p>I've honed my skills in storytelling, editing, and capturing compelling visuals. This journey has enhanced my creativity, technical expertise, and attention to detail, making every project a new opportunity to grow.</p>
+                </div>
+              </div>
+              <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-date">2022 - Present</div>
+                <div class="timeline-content">
+                  <h4>Front-End Developer</h4>
+                  <p>Learner(Intermediate Level)</p>
+                  <p>Working as an intermediate web developer with a focus on networking and cybersecurity, I've built secure and efficient web applications while strengthening my knowledge in network security and threat mitigation.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Skills Flowchart -->
+        <div class="skills-flowchart">
+          <h3 class="flowchart-title">
+            <i class="fas fa-code-branch"></i> Skills Growth Journey
+          </h3>
+          <div class="flowchart">
+            <div class="flowchart-node start-node">
+              <span>Begin: 2018</span>
+              <div class="node-content">
+                <h4>Hardware Installation</h4>
+              </div>
+            </div>
+            <div class="flowchart-arrow"></div>
+            <div class="flowchart-node">
+              <div class="node-content">
+                <h4>Video Editing & Photography</h4>
+                <p>Lightroom, Aftereffects, Blender</p>
+              </div>
+            </div>
+            <div class="flowchart-arrow"></div>
+            <div class="flowchart-node highlight-node">
+              <div class="node-content">
+                <h4>Web development</h4>
+                <p>Responsive Design, CSS Frameworks</p>
+              </div>
+            </div>
+            <div class="flowchart-branches">
+              <div class="branch">
+                <div class="flowchart-arrow vertical"></div>
+                <div class="flowchart-node">
+                  <div class="node-content">
+                    <h4>UI/UX Design</h4>
+                    <p>Figma, Adobe XD</p>
+                  </div>
+                </div>
+              </div>
+              <div class="branch">
+                <div class="flowchart-arrow vertical"></div>
+                <div class="flowchart-node">
+                  <div class="node-content">
+                    <h4>JavaScript Frameworks</h4>
+                    <p>React, Angular, Vue</p>
+                  </div>
+                </div>
+              </div>
+              <div class="branch">
+                <div class="flowchart-arrow vertical"></div>
+                <div class="flowchart-node">
+                  <div class="node-content">
+                    <h4>Performance Optimization</h4>
+                    <p>Lighthouse, WebPageTest</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="flowchart-arrow down"></div>
+            <div class="flowchart-node end-node">
+              <span>Present</span>
+              <div class="node-content">
+                <h4>Full Stack Capabilities</h4>
+                <p>Node.js, API Integration, DevOps</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects-section section">
+      <div class="container">
+        <div class="section-title">
+          <h2>My Projects</h2>
+          <p>Here are some of my recent projects. Each project represents my skills
+            and passion for creating beautiful and functional web applications.</p>
+        </div>
+        <div class="project-filters">
+          <button class="filter-btn active" data-filter="all">All</button>
+          <button class="filter-btn" data-filter="web">Web Design</button>
+          <button class="filter-btn" data-filter="app">Web Apps</button>
+          <button class="filter-btn" data-filter="other">Other</button>
+        </div>
+        <div class="projects-container">
+          <div class="project-card" data-category="web app">
+            <div class="project-img">
+              <img src="https://via.placeholder.com/600x400" alt="Portfolio Website">
+              <div class="project-overlay">
+                <div class="project-links">
+                  <a href="#" class="project-link" target="_blank" rel="noopener noreferrer">
+                    <i class="fas fa-link"></i> Demo
+                  </a>
+                  <a href="#" class="project-link" target="_blank" rel="noopener noreferrer">
+                    <i class="fab fa-github"></i> Code
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="project-info">
+              <h3 class="project-title">Portfolio Website</h3>
+              <p class="project-description">
+                A modern portfolio website for a photographer with image gallery and contact form.
+              </p>
+              <div class="project-tags">
+                <span class="project-tag">HTML</span>
+                <span class="project-tag">CSS</span>
+                <span class="project-tag">JavaScript</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section section">
+      <div class="container">
+        <div class="section-title">
+          <h2>Get In Touch</h2>
+          <p>Have a project in mind or want to discuss potential opportunities?
+            Feel free to reach out to me using the form below.</p>
+        </div>
+        <div class="contact-content">
+          <div class="contact-info">
+            <h3>Contact Information</h3>
+            <div class="contact-details">
+              <div class="contact-item">
+                <div class="contact-icon">
+                  <i class="fas fa-envelope"></i>
+                </div>
+                <div class="contact-text">
+                  <p>Email</p>
+                  <a href="mailto:example@example.com">example@example.com</a>
+                </div>
+              </div>
+              <div class="contact-item">
+                <div class="contact-icon">
+                  <i class="fas fa-map-marker-alt"></i>
+                </div>
+                <div class="contact-text">
+                  <p>Location</p>
+                  <span>Nashik, Maharashtra, India</span>
+                </div>
+              </div>
+            </div>
+            <div class="social-links">
+              <h3>Connect With Me</h3>
+              <div class="social-icons">
+                <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="social-icon">
+                  <i class="fab fa-github"></i>
+                </a>
+                <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" class="social-icon">
+                  <i class="fab fa-linkedin-in"></i>
+                </a>
+                <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" class="social-icon">
+                  <i class="fab fa-twitter"></i>
+                </a>
+                <a href="https://dribbble.com" target="_blank" rel="noopener noreferrer" class="social-icon">
+                  <i class="fab fa-dribbble"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="contact-form-container">
+            <form id="contact-form" class="contact-form">
+              <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" placeholder="Your Name" required>
+                <span class="form-error" id="name-error"></span>
+              </div>
+              <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="Your Email-ID" required>
+                <span class="form-error" id="email-error"></span>
+                required>
+                <span class="form-error" id="email-error"></span>
+              </div>
+              <div class="form-group">
+                <label for="subject">Subject</label>
+                <input type="text" id="subject" name="subject" placeholder="Project Inquiry" required>
+                <span class="form-error" id="subject-error"></span>
+              </div>
+              <div class="form-group">
+                <label for="message">Message</label>
+                <textarea id="message" name="message" placeholder="Tell me about your project..." rows="5" required></textarea>
+                <span class="form-error" id="message-error"></span>
+              </div>
+              <button type="submit" class="btn btn-primary btn-submit">Send Message</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-copyright">
+          <p>&copy; <span id="current-year"></span> Ankush Khakale. All rights reserved.</p>
+        </div>
+        <nav class="footer-nav">
+          <ul class="footer-nav-list">
+            <li><a href="#home" class="footer-nav-link">Home</a></li>
+            <li><a href="#about" class="footer-nav-link">About</a></li>
+            <li><a href="#resume" class="footer-nav-link">Resume</a></li>
+            <li><a href="#projects" class="footer-nav-link">Projects</a></li>
+            <li><a href="#contact" class="footer-nav-link">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Back to Top Button -->
+  <a href="#home" class="back-to-top" id="back-to-top" aria-label="Back to top">
+    <i class="fas fa-arrow-up"></i>
+  </a>
+
+  <!-- JavaScript -->
+  <script src="intersection-observer-polyfill.js"></script>
+  <script src="skill-charts.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
+
